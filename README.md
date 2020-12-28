@@ -16,7 +16,7 @@ A organização das pastas é a seguinte:
 
 ![banner](https://github.com/MatheusFranca-dev/desafiorobotica/blob/master/resources/desafio-fast.gif)
 
-O código do desafio pode ser encontrado em [desafio.c](https://github.com/MatheusFranca-dev/desafiorobotica/blob/master/webots_content/controllers/desafio/desafio.c). O trajeto foi realizado em 1 minuto e 11 segundos ao todo. 
+O código e o vídeo do desafio podem ser encontrados respectivamente em: [desafio.c](https://github.com/MatheusFranca-dev/desafiorobotica/blob/master/webots_content/controllers/desafio/desafio.c) e [desafio.mkv](https://github.com/MatheusFranca-dev/desafiorobotica/blob/master/resources/desafio.mkv). O trajeto foi realizado em 1 minuto e 11 segundos ao todo. 
 A explicação pode ser vista a seguir: 
 
 **1.** Para o robô parar no local indicado foi adicionado um [lightsensor](https://www.cyberbotics.com/doc/reference/lightsensor) no seu extensionSlot. Vale ressaltar que além dos próprios sensores, foi utilizado apenas o lightsensor a mais.   
@@ -29,7 +29,7 @@ A explicação pode ser vista a seguir:
 
 **5.** Então, se a leitura do sensor de luz for maior ou igual ao valor definido, o robô para (chegamos na luminária).
 
-**6.** Se ainda não chegou no objetivo, avalie os pesos dos sensores e desvie dos obstáculos e vá para frente.
+**6.** Se ainda não chegou no objetivo, avalie os pesos dos sensores, desvie dos obstáculos e vá para frente.
 
 **7.** Os passos 5 e 6 armazenam as velocidades escolhidas em um vetor, para que só depois seja atribuído ao par de motores.
 
